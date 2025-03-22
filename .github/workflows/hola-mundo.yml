@@ -1,8 +1,6 @@
-name: Hola mundo
-on: 
-  push:
-    branches:
-      - aprendiendo-github-actions
+name: Learning Github Actions
+run-name: ¡I'm learning Github Actions!
+on: [push]
 jobs:
   # setup-php:
   #   runs-on: ubuntu-lastest
@@ -11,7 +9,7 @@ jobs:
   #       uses: nanasess/setup-php@v4.0.2
   #       with:
   #         php-version: 8.2
-  run-index:
+  hello-world:
     runs-on: ubuntu-lastest
     steps:
       - name: Checkout
